@@ -35,10 +35,18 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/on7xelte/proprietary/lib/libsamsungRecord.so:system/lib/libsamsungRecord.so \
     vendor/samsung/on7xelte/proprietary/lib/libsamsungSoundbooster_plus.so:system/lib/libsamsungSoundbooster_plus.so \
     vendor/samsung/on7xelte/proprietary/lib/libsecaudioinfo.so:system/lib/libsecaudioinfo.so \
+    vendor/samsung/on7xelte/proprietary/lib/libsamsungDiamondVoice.so:system/lib/libsamsungDiamondVoice.so \
+    vendor/samsung/on7xelte/proprietary/lib/libSamsungAPVoiceEngine.so:system/lib/libSamsungAPVoiceEngine.so \
     vendor/samsung/on7xelte/proprietary/vendor/firmware/bcm4343A0_V0071.0262.hcd:system/vendor/firmware/bcm4343A0_V0071.0262.hcd \
     vendor/samsung/on7xelte/proprietary/vendor/firmware/bcm43438A1_V0062.0267.hcd:system/vendor/firmware/bcm43438A1_V0062.0267.hcd \
     vendor/samsung/on7xelte/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
     vendor/samsung/on7xelte/proprietary/lib/hw/bluetooth.default.so:system/lib/hw/bluetooth.default.so \
+    vendor/samsung/on7xelte/proprietary/lib/libbt-aptX-ARM-4.2.2.so:system/lib/libbt-aptX-ARM-4.2.2.so \
+    vendor/samsung/on7xelte/proprietary/lib/libbt-codec_aptx.so:system/lib/libbt-codec_aptx.so \
+    vendor/samsung/on7xelte/proprietary/lib/libbt-codec_sshd.so:system/lib/libbt-codec_sshd.so \
+    vendor/samsung/on7xelte/proprietary/lib/libbt-codec_sshd2.so:system/lib/libbt-codec_sshd2.so \
+    vendor/samsung/on7xelte/proprietary/lib/libbt-iopdb.so:system/lib/libbt-iopdb.so \
+    vendor/samsung/on7xelte/proprietary/lib/libbt-iopdb_mod.so:system/lib/libbt-iopdb_mod.so \
     vendor/samsung/on7xelte/proprietary/etc/bluetooth/av_performance.conf:system/etc/bluetooth/av_performance.conf \
     vendor/samsung/on7xelte/proprietary/etc/bluetooth/bt_did.conf:system/etc/bluetooth/bt_did.conf \
     vendor/samsung/on7xelte/proprietary/etc/bluetooth/bt_stack.conf:system/etc/bluetooth/bt_stack.conf \
@@ -71,6 +79,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/on7xelte/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
     vendor/samsung/on7xelte/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/samsung/on7xelte/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
+    vendor/samsung/on7xelte/proprietary/lib/libvulkan.so:system/lib/libvulkan.so \
     vendor/samsung/on7xelte/proprietary/vendor/firmware/fimc_is_lib.bin:system/vendor/firmware/fimc_is_lib.bin \
     vendor/samsung/on7xelte/proprietary/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin \
     vendor/samsung/on7xelte/proprietary/app/FFFFFFFF000000000000000000000001.drbin:system/app/FFFFFFFF000000000000000000000001.drbin \
