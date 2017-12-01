@@ -41,6 +41,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/on7xelte/proprietary/vendor/firmware/bcm43438A1_V0062.0267.hcd:system/vendor/firmware/bcm43438A1_V0062.0267.hcd \
     vendor/samsung/on7xelte/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
     vendor/samsung/on7xelte/proprietary/lib/hw/bluetooth.default.so:system/lib/hw/bluetooth.default.so \
+    vendor/samsung/on7xelte/proprietary/lib/libbluetooth_jni.so:system/lib/libbluetooth_jni.so \
     vendor/samsung/on7xelte/proprietary/lib/libbt-aptX-ARM-4.2.2.so:system/lib/libbt-aptX-ARM-4.2.2.so \
     vendor/samsung/on7xelte/proprietary/lib/libbt-codec_aptx.so:system/lib/libbt-codec_aptx.so \
     vendor/samsung/on7xelte/proprietary/lib/libbt-codec_sshd.so:system/lib/libbt-codec_sshd.so \
@@ -52,6 +53,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/on7xelte/proprietary/etc/bluetooth/bt_stack.conf:system/etc/bluetooth/bt_stack.conf \
     vendor/samsung/on7xelte/proprietary/etc/bluetooth/iop_bt.db:system/etc/bluetooth/iop_bt.db \
     vendor/samsung/on7xelte/proprietary/etc/bluetooth/iop_device_list.conf:system/etc/bluetooth/iop_device_list.conf \
+    vendor/samsung/on7xelte/proprietary/lib/libedmnativehelper.so:system/lib/libedmnativehelper.so \
     vendor/samsung/on7xelte/proprietary/lib/hw/camera.universal7870.so:system/lib/hw/camera.universal7870.so \
     vendor/samsung/on7xelte/proprietary/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
     vendor/samsung/on7xelte/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
@@ -59,6 +61,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/on7xelte/proprietary/lib/libseccameracore.so:system/lib/libseccameracore.so \
     vendor/samsung/on7xelte/proprietary/lib/libuniplugin.so:system/lib/libuniplugin.so \
     vendor/samsung/on7xelte/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
+    vendor/samsung/on7xelte/proprietary/lib/libexynosutils.so:system/lib/libexynosutils.so \
+    vendor/samsung/on7xelte/proprietary/lib/libcsc.so:system/lib/libcsc.so \
+    vendor/samsung/on7xelte/proprietary/lib/libexynosgscaler.so:system/lib/libexynosgscaler.so \
+    vendor/samsung/on7xelte/proprietary/lib/libexynosscaler.so:system/lib/libexynosscaler.so \
+    vendor/samsung/on7xelte/proprietary/lib/libexynosv4l2.so:system/lib/libexynosv4l2.so \
+    vendor/samsung/on7xelte/proprietary/lib/libstainkiller.so:system/lib/libstainkiller.so \
     vendor/samsung/on7xelte/proprietary/vendor/firmware/setfile_4h5yc.bin:system/vendor/firmware/setfile_4h5yc.bin \
     vendor/samsung/on7xelte/proprietary/vendor/firmware/setfile_imx258.bin:system/vendor/firmware/setfile_imx258.bin \
     vendor/samsung/on7xelte/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
@@ -127,8 +135,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/on7xelte/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/samsung/on7xelte/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
     vendor/samsung/on7xelte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
-    vendor/samsung/on7xelte/proprietary/bin/sensorservice:system/bin/sensorservice \
-    vendor/samsung/on7xelte/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
     vendor/samsung/on7xelte/proprietary/lib/hw/sensors.universal7870.so:system/lib/hw/sensors.universal7870.so \
     vendor/samsung/on7xelte/proprietary/lib/libsensorlistener.so:system/lib/libsensorlistener.so \
     vendor/samsung/on7xelte/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
@@ -141,11 +147,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/on7xelte/proprietary/etc/wifi/cred.conf:system/etc/wifi/cred.conf \
     vendor/samsung/on7xelte/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
     vendor/samsung/on7xelte/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
-    vendor/samsung/on7xelte/proprietary/lib/libcsc.so:system/lib/libcsc.so \
-    vendor/samsung/on7xelte/proprietary/lib/libexynosgscaler.so:system/lib/libexynosgscaler.so \
-    vendor/samsung/on7xelte/proprietary/lib/libexynosscaler.so:system/lib/libexynosscaler.so \
-    vendor/samsung/on7xelte/proprietary/lib/libexynosv4l2.so:system/lib/libexynosv4l2.so \
-    vendor/samsung/on7xelte/proprietary/lib/libstainkiller.so:system/lib/libstainkiller.so \
+    vendor/samsung/on7xelte/proprietary/vendor/lib/libsecpkcs11_engine.so:system/vendor/lib/libsecpkcs11_engine.so \
+    vendor/samsung/on7xelte/proprietary/vendor/lib/libtlc_tz_ccm.so:system/vendor/lib/libtlc_tz_ccm.so \
+    vendor/samsung/on7xelte/proprietary/vendor/lib/libSamsungPkcs11Wrapper.so:system/vendor/lib/libSamsungPkcs11Wrapper.so \
+    vendor/samsung/on7xelte/proprietary/vendor/lib/libsecure_storage.so:system/vendor/lib/libsecure_storage.so \
+    vendor/samsung/on7xelte/proprietary/vendor/lib/libsecure_storage_jni.so:system/vendor/lib/libsecure_storage_jni.so \
     vendor/samsung/on7xelte/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/samsung/on7xelte/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
     vendor/samsung/on7xelte/proprietary/vendor/lib/libLifevibes_lvverx.so:system/vendor/lib/libLifevibes_lvverx.so \
