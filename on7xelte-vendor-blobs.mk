@@ -73,7 +73,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/on7xelte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/samsung/on7xelte/proprietary/app/mcRegistry/ffffffff00000000000000000000000a.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000a.tlbin \
     vendor/samsung/on7xelte/proprietary/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin:system/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin \
-    vendor/samsung/on7xelte/proprietary/lib/hw/fingerprint.default.so:system/lib/hw/fingerprint.default.so \
     vendor/samsung/on7xelte/proprietary/lib/libbauthserver.so:system/lib/libbauthserver.so \
     vendor/samsung/on7xelte/proprietary/lib/libbauthtzcommon.so:system/lib/libbauthtzcommon.so \
     vendor/samsung/on7xelte/proprietary/lib/libegis_fp_normal_sensor_test.so:system/lib/libegis_fp_normal_sensor_test.so \
@@ -157,6 +156,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/on7xelte/proprietary/vendor/lib/libSamsungPkcs11Wrapper.so:system/vendor/lib/libSamsungPkcs11Wrapper.so \
     vendor/samsung/on7xelte/proprietary/vendor/lib/libsecure_storage.so:system/vendor/lib/libsecure_storage.so \
     vendor/samsung/on7xelte/proprietary/vendor/lib/libsecure_storage_jni.so:system/vendor/lib/libsecure_storage_jni.so \
+    vendor/samsung/on7xelte/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
     vendor/samsung/on7xelte/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/samsung/on7xelte/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
     vendor/samsung/on7xelte/proprietary/vendor/lib/libLifevibes_lvverx.so:system/vendor/lib/libLifevibes_lvverx.so \
