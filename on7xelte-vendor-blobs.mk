@@ -113,6 +113,18 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/on7xelte/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon \
     vendor/samsung/on7xelte/proprietary/vendor/lib/libMcClient.so:system/vendor/lib/libMcClient.so \
     vendor/samsung/on7xelte/proprietary/vendor/lib/libMcRegistry.so:system/vendor/lib/libMcRegistry.so \
+    vendor/samsung/on7xelte/proprietary/lib/libtlcotp.so:system/lib/libtlcotp.so \
+    vendor/samsung/on7xelte/proprietary/lib/libtlc_proxy.so:system/lib/libtlc_proxy.so \
+    vendor/samsung/on7xelte/proprietary/lib/libtlc_proxy_tui.so:system/lib/libtlc_proxy_tui.so \
+    vendor/samsung/on7xelte/proprietary/lib/libtlc_spay.so:system/lib/libtlc_spay.so \
+    vendor/samsung/on7xelte/proprietary/lib/libtlc_tima_atn.so:system/lib/libtlc_tima_atn.so \
+    vendor/samsung/on7xelte/proprietary/lib/libtlc_tima_pkm.so:system/lib/libtlc_tima_pkm.so \
+    vendor/samsung/on7xelte/proprietary/lib/libtlc_tima_tui.so:system/lib/libtlc_tima_tui.so \
+    vendor/samsung/on7xelte/proprietary/vendor/lib/libtlc_tz_ccm.so:system/vendor/lib/libtlc_tz_ccm.so \
+    vendor/samsung/on7xelte/proprietary/vendor/lib/libtlc_comm.so:system/vendor/lib/libtlc_comm.so \
+    vendor/samsung/on7xelte/proprietary/lib/libtlc_tz_esecomm.so:system/lib/libtlc_tz_esecomm.so \
+    vendor/samsung/on7xelte/proprietary/lib/libtlc_tz_iccc.so:system/lib/libtlc_tz_iccc.so \
+    vendor/samsung/on7xelte/proprietary/lib/libtlc_tz_keystore.so:system/lib/libtlc_tz_keystore.so \
     vendor/samsung/on7xelte/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
     vendor/samsung/on7xelte/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
     vendor/samsung/on7xelte/proprietary/lib/omx/libOMX.Exynos.HEVC.Decoder.so:system/lib/omx/libOMX.Exynos.HEVC.Decoder.so \
