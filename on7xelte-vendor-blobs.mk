@@ -110,21 +110,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/on7xelte/proprietary/app/mcRegistry/ffffffffd00000000000000000000004.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000004.tlbin \
     vendor/samsung/on7xelte/proprietary/app/mcRegistry/ffffffffd00000000000000000000016.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000016.tlbin \
     vendor/samsung/on7xelte/proprietary/app/mcRegistry/fffffffff0000000000000000000001e.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001e.tlbin \
-    vendor/samsung/on7xelte/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon \
     vendor/samsung/on7xelte/proprietary/vendor/lib/libMcClient.so:system/vendor/lib/libMcClient.so \
     vendor/samsung/on7xelte/proprietary/vendor/lib/libMcRegistry.so:system/vendor/lib/libMcRegistry.so \
-    vendor/samsung/on7xelte/proprietary/lib/libtlcotp.so:system/lib/libtlcotp.so \
-    vendor/samsung/on7xelte/proprietary/lib/libtlc_proxy.so:system/lib/libtlc_proxy.so \
-    vendor/samsung/on7xelte/proprietary/lib/libtlc_proxy_tui.so:system/lib/libtlc_proxy_tui.so \
-    vendor/samsung/on7xelte/proprietary/lib/libtlc_spay.so:system/lib/libtlc_spay.so \
-    vendor/samsung/on7xelte/proprietary/lib/libtlc_tima_atn.so:system/lib/libtlc_tima_atn.so \
-    vendor/samsung/on7xelte/proprietary/lib/libtlc_tima_pkm.so:system/lib/libtlc_tima_pkm.so \
-    vendor/samsung/on7xelte/proprietary/lib/libtlc_tima_tui.so:system/lib/libtlc_tima_tui.so \
-    vendor/samsung/on7xelte/proprietary/vendor/lib/libtlc_tz_ccm.so:system/vendor/lib/libtlc_tz_ccm.so \
-    vendor/samsung/on7xelte/proprietary/vendor/lib/libtlc_comm.so:system/vendor/lib/libtlc_comm.so \
-    vendor/samsung/on7xelte/proprietary/lib/libtlc_tz_esecomm.so:system/lib/libtlc_tz_esecomm.so \
-    vendor/samsung/on7xelte/proprietary/lib/libtlc_tz_iccc.so:system/lib/libtlc_tz_iccc.so \
-    vendor/samsung/on7xelte/proprietary/lib/libtlc_tz_keystore.so:system/lib/libtlc_tz_keystore.so \
     vendor/samsung/on7xelte/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
     vendor/samsung/on7xelte/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
     vendor/samsung/on7xelte/proprietary/lib/omx/libOMX.Exynos.HEVC.Decoder.so:system/lib/omx/libOMX.Exynos.HEVC.Decoder.so \
@@ -146,8 +133,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/on7xelte/proprietary/lib/hw/sensors.universal7870.so:system/lib/hw/sensors.universal7870.so \
     vendor/samsung/on7xelte/proprietary/lib/libsensorlistener.so:system/lib/libsensorlistener.so \
     vendor/samsung/on7xelte/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
-    vendor/samsung/on7xelte/proprietary/lib/libion.so:system/lib/libion.so \
-    vendor/samsung/on7xelte/proprietary/lib/libion_exynos.so:system/lib/libion_exynos.so \
     vendor/samsung/on7xelte/proprietary/etc/plmn_delta.bin:system/etc/plmn_delta.bin \
     vendor/samsung/on7xelte/proprietary/etc/plmn_se13.bin:system/etc/plmn_se13.bin \
     vendor/samsung/on7xelte/proprietary/etc/srm.bin:system/etc/srm.bin \
