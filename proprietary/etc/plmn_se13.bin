@@ -420,12 +420,8 @@ Mobilicity"Mobilici
 302490Freedom"Freedom
 
 302500	Videotron"CANVT
-
-302520	Videotron"CANVT
 
 302610Bell"Bell
-!
-302620Ice Wireless Inc"Ice
 
 302660MTS"MTS
 #
@@ -590,10 +586,10 @@ NetGenuity"NetGenui
 330110PR Claro"Claro
 "
 330120Open Mob PRI"Open Mob
-
-33403Movistar"TEMM
 
 334020TELCEL"TELCEL
+
+334030Movistar"TEMM
 
 334050AT&T"AT&T
 
@@ -1353,16 +1349,16 @@ $
 45413China Mobile HK"CMHK
 
 45415SmarTone HK"SMC HK
-
-45416CSL"CSL
+
+45416PCCW-HKT"PCCW-HKT
 
 45417SmarTone HK"SMC HK
 
 45418CSL"CSL
-
-45419CSL"CSL
-
-45420CSL"CSL
+
+45419PCCW-HKT"PCCW-HKT
+
+45420PCCW-HKT"PCCW-HKT
  
 45500SmarTone MAC"SMC MAC
 
@@ -1479,14 +1475,12 @@ Banglalink"BL
 50572Telstra Mobile"Telstra
 
 51001IND INDOSAT"INDOSAT
-
-51008IND XL"Axis
+
+51008AXIS"AXIS
 
 51009	Smartfren"SF
 
 51010IND TELKOMSEL"T-SEL
-
-51011IND XL"XL
 
 51021IND INDOSAT"INDOSAT
 
@@ -1570,8 +1564,8 @@ BRU-DSTCom"DSTCom
 544110Bluesky Communications"BLUESKY
 
 54601NCL MOBILIS"MOBNCL
- 
-54715VODAFONE PF"VODAFONE
+
+54715Vodafone PF"VF PF
 
 54720F-VINI"VINI
 
@@ -1597,8 +1591,6 @@ CK KOKANET"KOKANET
 60202vodafone EG"voda EG
 
 60203Etisalat"Etisalat
-
-60204te"te
 
 60301ALG Mobilis"Mobilis
 
@@ -1662,8 +1654,6 @@ MALITEL ML"MALITEL
 61204KoZ"KoZ
 
 61205MTN CI"MTN CI
-
-61301ONATEL"ONATEL
 !
 61302Orange Burkina"Orange
 
@@ -1717,8 +1707,8 @@ Tigo Ghana"MIC
 62140ntel"ntel
 
 62150Glo NG"glo
-
-621609 mobile"9 mobile
+%
+62160Etisalat Nigeria"Etisalat
 
 62201Airtel"Airtel
 
@@ -1814,8 +1804,6 @@ SO Telesom"Tele
 
 63907
 GSM Telkom"GSMTKL
-
-63910FAIBA"FAIBA
 
 64002	TIGO - TZ"TIGO
 
@@ -1863,8 +1851,6 @@ VodaCom-MZ"VodaCom
 64602	Orange MG"OrangeMG
 
 64604TELMA"TELMA
-
-64605Bip"Bip
 
 64700	Orange re"Orange
  
@@ -1899,8 +1885,6 @@ TELECEL ZW"TELECEL
 65202Orange"Orange
 
 65204beMOBILE"beMOBILE
-!
-65302Swazi Mobile"Swazi Mo
 
 65310	Swazi-MTN"SwaziMTN
 
@@ -2100,4 +2084,4 @@ AeroMobile"AeroMob
 
 90145AISatSea"AISatSea
 
-90150EchoStar Mobile"EML&Published TS25 Database 07 August 2017
+90150EchoStar Mobile"EML#Published TS25 Database 29 May 2017
