@@ -290,8 +290,6 @@ AvrcAbsVolBlacklist KEY_BDADDR="00:26:7e:*"
 AvrcAbsVolBlacklist KEY_BDADDR="90:03:b7:*"
 /* SONATA - unable to synchronize volume */
 AvrcAbsVolBlacklist KEY_BDADDR="a8:b9:b3:*"
-/* Mi Bluetooth Speaker - unable to synchronize volume */
-AvrcAbsVolBlacklist KEY_BDADDR="e8:07:bf:*"
 
 #---------------------------------------------------------------------
 # :: Initiate Av connect even when sdp fails
@@ -618,20 +616,6 @@ CheckAvCollMask KEY_BDADDR="7c:66:9d:*"
 CheckAvCollMask KEY_BDADDR="00:06:f7:*"
 /* CAR MULTIMEDIA_13MOP */
 CheckAvCollMask KEY_BDADDR="34:b1:f7:*"
-
-#---------------------------------------------------------------------
-# :: to avoid AV scalable bitrate
-#
-#    AVAILABLE KEYS :
-#
-#      KEY_NAME
-
-/* Jaybird BlueBuds X */
-AvoidAvScalable KEY_NAME="BlueBuds_X"
-/* Jaybird X2 */
-AvoidAvScalable KEY_NAME="Jaybird_X2"
-/* Plantronics BACKBEAT FIT */
-AvoidAvScalable KEY_NAME="PLT_BBFIT"
 
 #---------------------------------------------------------------------
 # :: Feature enable / disable
